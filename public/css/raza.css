@@ -1,0 +1,121 @@
+.raza-container * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.raza-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.raza-container h1,
+.raza-container h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.raza-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.raza-container table thead {
+    background-color: #2980b9;
+    color: white;
+}
+
+.raza-container table th,
+.raza-container table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.raza-container table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.raza-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.raza-btn-primary {
+    background-color: #3498db;
+}
+
+.raza-btn-primary:hover {
+    background-color: #217dbb;
+}
+
+.raza-btn-success {
+    background-color: #2ecc71;
+}
+
+.raza-btn-success:hover {
+    background-color: #27ae60;
+}
+
+.raza-btn-danger {
+    background-color: #e74c3c;
+}
+
+.raza-btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.raza-btn-warning {
+    background-color: #f39c12;
+}
+
+.raza-btn-warning:hover {
+    background-color: #d68910;
+}
+
+.raza-container form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.raza-container form input[type="text"],
+.raza-container form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.raza-container form input[type="submit"] {
+    width: auto;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.raza-container form input[type="submit"]:hover {
+    background-color: #1b5980;
+}
